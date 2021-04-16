@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.720000000000004
+    "zoomFactor": 0.40000000000000374
   },
   "objectsGroups": [],
   "variables": [
@@ -610,8 +610,8 @@
       "name": "terrenoGramadoMTela",
       "persistentUuid": "b78ea59e-3d93-412f-9140-726d169a5269",
       "width": 110,
-      "x": 0,
-      "y": 331,
+      "x": -137,
+      "y": 360,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -728,12 +728,23 @@
       "name": "luvasBrancasPares",
       "persistentUuid": "c02deac1-00ab-47dd-b96a-0886dce73760",
       "width": 466,
-      "x": -574,
-      "y": 9,
-      "zOrder": 3,
+      "x": -550,
+      "y": 23,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pox",
+          "type": "string",
+          "value": "280 "
+        },
+        {
+          "name": "poy",
+          "type": "string",
+          "value": "299"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -744,9 +755,9 @@
       "name": "luvasPretasPares",
       "persistentUuid": "6ec931ac-a62a-451f-aeeb-061b425221bc",
       "width": 453,
-      "x": -584,
-      "y": 195,
-      "zOrder": 2,
+      "x": -551,
+      "y": 184,
+      "zOrder": 4,
       "numberProperties": [
         {
           "name": "animation",
@@ -765,8 +776,8 @@
       "name": "sandaliasPares",
       "persistentUuid": "06ad7546-c870-49d9-a34a-304930f3fc05",
       "width": 329,
-      "x": -514,
-      "y": 527,
+      "x": -495,
+      "y": 475,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -781,8 +792,8 @@
       "name": "botasPares",
       "persistentUuid": "e9d9e583-b4c3-4a73-920d-356cd4cac065",
       "width": 310,
-      "x": -491,
-      "y": 368,
+      "x": -477,
+      "y": 344,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -850,8 +861,8 @@
       "name": "terrenoGramadoSombra",
       "persistentUuid": "dd0a94dc-4c73-4ec1-bbea-ba359a6bff40",
       "width": 110,
-      "x": -133,
-      "y": 546,
+      "x": 4,
+      "y": 330,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -968,9 +979,41 @@
       "name": "gramaMTerrenoG",
       "persistentUuid": "cf1a6fa4-c7c5-43f6-bf0f-24be63fe2c83",
       "width": 0,
-      "x": 1277,
-      "y": 861,
+      "x": 114,
+      "y": 354,
       "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "telaPlayer",
+      "locked": false,
+      "name": "statusInterruptor",
+      "persistentUuid": "aaffdccf-6030-4f1d-b80c-41e8000bb138",
+      "width": 0,
+      "x": 435,
+      "y": 5,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 397,
+      "layer": "telaPlayer",
+      "locked": false,
+      "name": "contatoPlayer",
+      "persistentUuid": "546a8a01-d569-40d1-8b3e-629d79975b65",
+      "width": 433,
+      "x": 302,
+      "y": 113,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1816,7 +1859,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "on",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1825,7 +1868,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "334.png",
+                  "image": "331.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1845,7 +1888,7 @@
           ]
         },
         {
-          "name": "off",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1854,7 +1897,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "331.png",
+                  "image": "334.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3058,10 +3101,10 @@
       "variables": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -3116,6 +3159,64 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "2562.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "statusInterruptor",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Desligado",
+      "font": "",
+      "characterSize": 14,
+      "color": {
+        "b": 60,
+        "g": 51,
+        "r": 11
+      }
+    },
+    {
+      "name": "contatoPlayer",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "267.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3436,6 +3537,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "ANIMACAO INTERRUPTOR",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3481,6 +3597,74 @@
                 "telaInterruptor",
                 "=",
                 "telaInterruptor.Variable(offOn)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "telaInterruptor",
+                "offOn",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "statusInterruptor",
+                "=",
+                "\"Desligado\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "telaInterruptor",
+                "offOn",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "statusInterruptor",
+                "=",
+                "\"Ligado\""
               ],
               "subInstructions": []
             }
@@ -4002,20 +4186,6 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "gramaMTerrenoG",
-                "=",
-                "114",
-                "=",
-                "354"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreXY"
-              },
-              "parameters": [
                 "rochosoTerrenoG",
                 "=",
                 "114",
@@ -4119,6 +4289,59 @@
                 "0",
                 "=",
                 "ToNumber(terrenoRochosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "APLICA FERRAMENTAS",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "luvaTela",
+                "contatoPlayer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvasBrancasPares",
+                "=",
+                "280",
+                "=",
+                "299"
               ],
               "subInstructions": []
             }

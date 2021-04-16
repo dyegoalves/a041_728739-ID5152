@@ -610,15 +610,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "320.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "320.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "316.png",
         "kind": "image",
         "metadata": "",
@@ -643,15 +634,6 @@
         "name": "314.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "323.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "323.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -736,15 +718,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "316 - b.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "316 - b.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "320 - b.png",
         "kind": "image",
         "metadata": "",
@@ -776,15 +749,6 @@
         "kind": "image",
         "metadata": "",
         "name": "314 - b.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "cabecaSuada.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "cabecaSuada.PNG",
         "smoothed": true,
         "userAdded": false
       },
@@ -886,6 +850,15 @@
         "name": "314 - b2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "267.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "267.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
