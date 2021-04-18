@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "ca041_95728739",
-  "name": "ca041_728739",
+  "mangledName": "ca041_95728739_45TESTE",
+  "name": "ca041_728739-TESTE",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -23,27 +23,27 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.41000000000000014
+    "zoomFactor": 0.33000000000000085
   },
   "objectsGroups": [],
   "variables": [
     {
-      "name": "rmao",
+      "name": "Rmao",
       "type": "number",
       "value": 0
     },
     {
-      "name": "rpe",
+      "name": "Rpe",
       "type": "number",
       "value": 0
     },
     {
-      "name": "rcorpo",
+      "name": "Rcorpo",
       "type": "number",
       "value": 0
     },
     {
-      "name": "rpiso",
+      "name": "Rpiso",
       "type": "number",
       "value": 0
     },
@@ -540,7 +540,7 @@
       "width": 70,
       "x": 20,
       "y": 77,
-      "zOrder": 35,
+      "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -581,9 +581,9 @@
       "name": "sandaliaTela",
       "persistentUuid": "3d1d9551-529c-4e3e-ad72-345dc36f36ee",
       "width": 70,
-      "x": 21,
-      "y": 117,
-      "zOrder": 34,
+      "x": 20,
+      "y": 118,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -610,7 +610,7 @@
       "width": 70,
       "x": 20,
       "y": 162,
-      "zOrder": 33,
+      "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -684,8 +684,8 @@
       "name": "terrenoGramadoMTela",
       "persistentUuid": "b78ea59e-3d93-412f-9140-726d169a5269",
       "width": 110,
-      "x": -139,
-      "y": 380,
+      "x": -137,
+      "y": 360,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -789,7 +789,7 @@
       "width": 70,
       "x": -102,
       "y": 108,
-      "zOrder": 35,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -816,7 +816,7 @@
       "width": 70,
       "x": -105,
       "y": 160,
-      "zOrder": 35,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -841,8 +841,8 @@
       "name": "cabecaSombra",
       "persistentUuid": "81efbc0a-13f8-4a44-bbd9-e4475ef3ded8",
       "width": 99,
-      "x": -158,
-      "y": 576,
+      "x": -134,
+      "y": 546,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -885,12 +885,12 @@
           "value": "299"
         },
         {
-          "name": "luvabrancaS",
+          "name": "luvabrancaP",
           "type": "boolean",
-          "value": false
+          "value": true
         },
         {
-          "name": "luvabrancaV",
+          "name": "objLuvabranca",
           "type": "string",
           "value": "150"
         }
@@ -927,12 +927,12 @@
           "value": "289"
         },
         {
-          "name": "luvapretaS",
+          "name": "luvapretaP",
           "type": "boolean",
           "value": false
         },
         {
-          "name": "luvapretaV",
+          "name": "objLuvapreta",
           "type": "number",
           "value": 1000000
         }
@@ -964,12 +964,12 @@
           "value": "447"
         },
         {
-          "name": "sandaliaS",
+          "name": "sandaliaP",
           "type": "boolean",
           "value": false
         },
         {
-          "name": "sandaliaV",
+          "name": "objSandalia",
           "type": "number",
           "value": 500
         }
@@ -1001,12 +1001,12 @@
           "value": "428"
         },
         {
-          "name": "botaS",
+          "name": "botaP",
           "type": "boolean",
-          "value": false
+          "value": true
         },
         {
-          "name": "botaV",
+          "name": "objBota",
           "type": "string",
           "value": "2000000"
         }
@@ -1021,8 +1021,8 @@
       "name": "terrenoArgilosoSombra",
       "persistentUuid": "40801b61-6628-4caa-a261-191c81bcde57",
       "width": 110,
-      "x": -130,
-      "y": 424,
+      "x": -136,
+      "y": 420,
       "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
@@ -1141,12 +1141,12 @@
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "argilosoS",
+          "name": "argilosoP",
           "type": "boolean",
-          "value": false
+          "value": true
         },
         {
-          "name": "argilosoV",
+          "name": "objArgiloso",
           "type": "string",
           "value": "100"
         }
@@ -1168,12 +1168,12 @@
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "arenosoS",
+          "name": "arenosoP",
           "type": "boolean",
           "value": false
         },
         {
-          "name": "arenosoV",
+          "name": "objArenoso",
           "type": "string",
           "value": "200"
         }
@@ -1195,12 +1195,12 @@
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "rochosoS",
+          "name": "rochosoP",
           "type": "boolean",
           "value": false
         },
         {
-          "name": "rochosoV",
+          "name": "objRochoso",
           "type": "string",
           "value": "3000"
         }
@@ -1215,19 +1215,19 @@
       "name": "gramaMTerrenoG",
       "persistentUuid": "cf1a6fa4-c7c5-43f6-bf0f-24be63fe2c83",
       "width": 0,
-      "x": 116,
-      "y": 331,
+      "x": 114,
+      "y": 354,
       "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "gramadoS",
+          "name": "gramamolhadaP",
           "type": "boolean",
-          "value": true
+          "value": false
         },
         {
-          "name": "gramadoV",
+          "name": "objGramamolhada",
           "type": "number",
           "value": 50
         }
@@ -1307,12 +1307,12 @@
           "value": "202"
         },
         {
-          "name": "corposuadoS",
+          "name": "corposuadoP",
           "type": "boolean",
           "value": false
         },
         {
-          "name": "corposuadoV",
+          "name": "objCorposuado",
           "type": "string",
           "value": "650"
         }
@@ -1327,7 +1327,7 @@
       "name": "textU",
       "persistentUuid": "342ff9db-db39-4324-b713-88abc994bf55",
       "width": 60,
-      "x": 32,
+      "x": 40,
       "y": 494,
       "zOrder": 68,
       "numberProperties": [],
@@ -1360,7 +1360,7 @@
       "persistentUuid": "e60b2c59-22cc-48ee-872a-cc4356b9b590",
       "width": 80,
       "x": 32,
-      "y": 550,
+      "y": 548,
       "zOrder": 70,
       "numberProperties": [],
       "stringProperties": [],
@@ -1378,6 +1378,22 @@
       "x": 173,
       "y": 512,
       "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "telaPlayer",
+      "locked": false,
+      "name": "teste",
+      "persistentUuid": "adca4b59-bed6-45e0-b04a-61f2ba43a56d",
+      "width": 0,
+      "x": 175,
+      "y": 100,
+      "zOrder": 72,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2657,16 +2673,16 @@
       ],
       "animations": [
         {
-          "name": "318",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "318-1.png",
+                  "image": "318.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3868,14 +3884,6 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -3892,2882 +3900,6 @@
       "actions": [],
       "events": [
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "ANIMACAO DISJUNTOR",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "ANIMACAO DISJUNTOR",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ToggleObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "offOn"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "=",
-                    "telaDisjuntor.Variable(offOn)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "offOn",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "statusInterruptor",
-                    "=",
-                    "\"Desligado\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "offOn",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "statusInterruptor",
-                    "=",
-                    "\"Ligado\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "BOTOES DE AJUDA TOP",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "BOTOES DE AJUDA TOP",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "btForum",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "btForum",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"FORUNS\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "btInfo",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "btInfo",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"REFLEXOES\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "btAjuda",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "btAjuda",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"AJUDA\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "btCreditos",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "btCreditos",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"CREDITOS\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "FERRAMENTAS PLAYER",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "APLICA FERRAMENTAS PLAYER",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "luvaTela",
-                    "contatoPlayer",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "=",
-                    "ToNumber(luvasBrancasPares.VariableString(pox))",
-                    "=",
-                    "ToNumber(luvasBrancasPares.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvaTela",
-                    "=",
-                    "ToNumber(luvaTela.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(luvaTela.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvaBrancaSombra",
-                    "=",
-                    "ToNumber(luvaBrancaSombra.VariableString(pox))",
-                    "=",
-                    "ToNumber(luvaBrancaSombra.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "luvaPretaTela",
-                    "contatoPlayer",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "=",
-                    "ToNumber(luvasPretasPares.VariableString(pox))",
-                    "=",
-                    "ToNumber(luvasPretasPares.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvaPretaTela",
-                    "=",
-                    "ToNumber(luvaPretaTela.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(luvaPretaTela.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvaPretaSombra",
-                    "=",
-                    "ToNumber(luvaPretaSombra.VariableString(pox))",
-                    "=",
-                    "ToNumber(luvaPretaSombra.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "sandaliaTela",
-                    "contatoPlayer",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "=",
-                    "ToNumber(sandaliasPares.VariableString(pox))",
-                    "=",
-                    "ToNumber(sandaliasPares.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "sandaliaSombra",
-                    "=",
-                    "ToNumber(sandaliaSombra.VariableString(pox))",
-                    "=",
-                    "ToNumber(sandaliaSombra.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "sandaliaTela",
-                    "=",
-                    "ToNumber(sandaliaTela.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(sandaliaTela.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "=",
-                    "ToNumber(botasPares.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(botasPares.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "botaTela",
-                    "=",
-                    "ToNumber(botaTela.VariableString(pox))",
-                    "=",
-                    "ToNumber(botaTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "botaTela",
-                    "contatoPlayer",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "=",
-                    "ToNumber(botasPares.VariableString(pox))",
-                    "=",
-                    "ToNumber(botasPares.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "botaSombra",
-                    "=",
-                    "ToNumber(botaSombra.VariableString(pox))",
-                    "=",
-                    "ToNumber(botaSombra.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "botaTela",
-                    "=",
-                    "ToNumber(botaTela.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(botaTela.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "=",
-                    "ToNumber(sandaliasPares.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(sandaliasPares.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "sandaliaTela",
-                    "=",
-                    "ToNumber(sandaliaTela.VariableString(pox))",
-                    "=",
-                    "ToNumber(sandaliaTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "cabecaSuadaTela",
-                    "contatoPlayer",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "corpoSuado",
-                    "=",
-                    "ToNumber(corpoSuado.VariableString(pox))",
-                    "=",
-                    "ToNumber(corpoSuado.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "cabecaSombra",
-                    "=",
-                    "ToNumber(cabecaSombra.VariableString(pox))",
-                    "=",
-                    "ToNumber(cabecaSombra.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "cabecaSuadaTela",
-                    "=",
-                    "ToNumber(cabecaSuadaG.VariableString(pox))+600",
-                    "=",
-                    "ToNumber(cabecaSuadaG.VariableString(poy))+600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "corpoSuado",
-                    "corposuadoS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "sandaliaSombra",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botas",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "sandaliaSombra",
-                    "botaTela",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "sandaliaSombra",
-                    "botaSombra",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "sandaliaTela",
-                    "=",
-                    "ToNumber(sandaliaTela.VariableString(pox))",
-                    "=",
-                    "ToNumber(sandaliaTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "=",
-                    "ToNumber(sandaliasPares.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(sandaliasPares.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "botaSombra",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "botaSombra",
-                    "sandaliaTela",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "botaSombra",
-                    "sandaliaSombra",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "botaTela",
-                    "=",
-                    "ToNumber(botaTela.VariableString(pox))",
-                    "=",
-                    "ToNumber(botaTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "=",
-                    "ToNumber(botasPares.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(botasPares.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "luvaBrancaSombra",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "luvaBrancaSombra",
-                    "luvaTela",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "luvaBrancaSombra",
-                    "sandaliaTela",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "luvaBrancaSombra",
-                    "botaTela",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvaTela",
-                    "=",
-                    "ToNumber(luvaTela.VariableString(pox))",
-                    "=",
-                    "ToNumber(luvaTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvaBrancaSombra",
-                    "=",
-                    "ToNumber(luvaBrancaSombra.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(luvaBrancaSombra.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "=",
-                    "ToNumber(luvasBrancasPares.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(luvasBrancasPares.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "luvaPretaSombra",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "luvaPretaSombra",
-                    "luvaTela",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "luvaPretaSombra",
-                    "sandaliaTela",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "luvaPretaSombra",
-                    "botaTela",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvaPretaTela",
-                    "=",
-                    "ToNumber(luvaPretaTela.VariableString(pox))",
-                    "=",
-                    "ToNumber(luvaPretaTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvaPretaSombra",
-                    "=",
-                    "ToNumber(luvaPretaSombra.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(luvaPretaSombra.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "=",
-                    "ToNumber(luvasPretasPares.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(luvasPretasPares.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "cabecaSombra",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "cabecaSuadaTela",
-                    "=",
-                    "ToNumber(cabecaSuadaTela.VariableString(pox))",
-                    "=",
-                    "ToNumber(cabecaSuadaTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "cabecaSombra",
-                    "=",
-                    "ToNumber(cabecaSombra.VariableString(pox)) +600",
-                    "=",
-                    "ToNumber(cabecaSombra.VariableString(poy))+600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "corpoSuado",
-                    "=",
-                    "ToNumber(corpoSuado.VariableString(pox)) + 600",
-                    "=",
-                    "ToNumber(corpoSuado.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "corpoSuado",
-                    "corposuadoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "TERRENO E SELECAO DE TERRENO",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "TERRENO E SELECAO DE TERRENO",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "terrenoArgilosoTela",
-                    "contatoTerreno",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "argilosoTerrenoG",
-                    "argilosoS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "arenosoTerrenoG",
-                    "arenosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "rochosoTerrenoG",
-                    "rochosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "gramaMTerrenoG",
-                    "gramadoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "argilosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "354"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "arenosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "rochosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "gramaMTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArgilosoSombra",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArgilosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArgilosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArgilosoTela.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArenosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArenosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoRochosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoRochosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoGramadoMTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoGramadoMTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "terrenoArenosoTela",
-                    "contatoTerreno",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "arenosoTerrenoG",
-                    "arenosoS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "argilosoTerrenoG",
-                    "argilosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "rochosoTerrenoG",
-                    "rochosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "gramaMTerrenoG",
-                    "gramadoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "arenosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "354"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "argilosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "rochosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "gramaMTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArenosoSombra",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArenosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArenosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArenosoTela.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArgilosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArgilosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoRochosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoRochosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoGramadoMTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoGramadoMTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "terrenoRochosoTela",
-                    "contatoTerreno",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "rochosoTerrenoG",
-                    "rochosoS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "arenosoTerrenoG",
-                    "arenosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "argilosoTerrenoG",
-                    "argilosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "gramaMTerrenoG",
-                    "gramadoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "rochosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "354"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "arenosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "argilosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "gramaMTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoRochosoSombra",
-                    "=",
-                    "0",
-                    "=",
-                    " ToNumber(terrenoRochosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoRochosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    " ToNumber(terrenoRochosoTela.VariableString(poy)) + 600\n"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArgilosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArgilosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArenosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArenosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoGramadoMTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoGramadoMTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "terrenoGramadoMTela",
-                    "contatoTerreno",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "gramaMTerrenoG",
-                    "gramadoS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "arenosoTerrenoG",
-                    "arenosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "rochosoTerrenoG",
-                    "rochosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "argilosoTerrenoG",
-                    "argilosoS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "gramaMTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "354"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "rochosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "arenosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "argilosoTerrenoG",
-                    "=",
-                    "114",
-                    "=",
-                    "800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoGramadoSombra",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoGramadoMTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoGramadoMTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoGramadoMTela.VariableString(poy)) + 600"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArgilosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArgilosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoArenosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoArenosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "terrenoRochosoTela",
-                    "=",
-                    "0",
-                    "=",
-                    "ToNumber(terrenoRochosoTela.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "SINAL ALERTA",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalRed",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalYellow",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalGreen",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalRed",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalYellow",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalGreen",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalRed",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalYellow",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalGreen",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalRed",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalYellow",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalGreen",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalRed",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalYellow",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalGreen",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalRed",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalYellow",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalGreen",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            }
-          ],
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "disabled": false,
-      "folded": true,
-      "name": "DISJUNTOR LIGADO APLICA UIR COM ESTADOS",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
@@ -6779,7 +3911,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "DISJUNTOR LIGADO APLICA UIR COM ESTADOS",
+          "comment": "BOTOES DE AJUDA TOP",
           "comment2": ""
         },
         {
@@ -6790,28 +3922,159 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ObjectVariableAsBoolean"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "telaDisjuntor",
-                "offOn",
-                "True"
+                "btInfo",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btInfo",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"REFLEXOES\""
               ],
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
               },
-              "target": "calculoURI"
+              "parameters": [
+                "btAjuda",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btAjuda",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"AJUDA\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btCreditos",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btCreditos",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"CREDITOS\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -6825,8 +4088,62 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "DISJUNTOR DESLIGADO APLICA UIR COM ESTADOS",
+          "comment": "ANIMACAO DISJUNTOR",
           "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "telaDisjuntor",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "telaDisjuntor",
+                "offOn"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "telaDisjuntor",
+                "=",
+                "telaDisjuntor.Variable(offOn)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -6853,12 +4170,2156 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "textU",
+                "statusInterruptor",
                 "=",
-                "\"\""
+                "\"Desligado\""
               ],
               "subInstructions": []
             },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "estadoCena",
+                "=",
+                "\"D\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "telaDisjuntor",
+                "offOn",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "statusInterruptor",
+                "=",
+                "\"Ligado\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "estadoCena",
+                "=",
+                "\"L\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btForum",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "btForum",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"FORUNS\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "TERRENO E SELECAO DE TERRENO",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "terrenoArgilosoTela",
+                "contatoTerreno",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "argilosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "354"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "arenosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "GlobalVariable(foraPisoY)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "rochosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "gramaMTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArgilosoSombra",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArgilosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArgilosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArgilosoTela.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArenosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArenosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoRochosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoRochosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoGramadoMTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoGramadoMTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "terrenoArenosoTela",
+                "contatoTerreno",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "arenosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "354"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "argilosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "rochosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "gramaMTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArenosoSombra",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArenosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArenosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArenosoTela.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArgilosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArgilosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoRochosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoRochosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoGramadoMTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoGramadoMTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "terrenoRochosoTela",
+                "contatoTerreno",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "rochosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "354"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "arenosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "argilosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "gramaMTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoRochosoSombra",
+                "=",
+                "0",
+                "=",
+                " ToNumber(terrenoRochosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoRochosoTela",
+                "=",
+                "0",
+                "=",
+                " ToNumber(terrenoRochosoTela.VariableString(poy)) + 600\n"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArgilosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArgilosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArenosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArenosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoGramadoMTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoGramadoMTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "terrenoGramadoMTela",
+                "contatoTerreno",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "gramaMTerrenoG",
+                "=",
+                "114",
+                "=",
+                "354"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "rochosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "arenosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "argilosoTerrenoG",
+                "=",
+                "114",
+                "=",
+                "800"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoGramadoSombra",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoGramadoMTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoGramadoMTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoGramadoMTela.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArgilosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArgilosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoArenosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoArenosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "terrenoRochosoTela",
+                "=",
+                "0",
+                "=",
+                "ToNumber(terrenoRochosoTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "APLICA FERRAMENTAS PLAYER",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "luvaTela",
+                "contatoPlayer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvasBrancasPares",
+                "=",
+                "ToNumber(luvasBrancasPares.VariableString(pox))",
+                "=",
+                "ToNumber(luvasBrancasPares.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvaTela",
+                "=",
+                "ToNumber(luvaTela.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(luvaTela.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvaBrancaSombra",
+                "=",
+                "ToNumber(luvaBrancaSombra.VariableString(pox))",
+                "=",
+                "ToNumber(luvaBrancaSombra.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "luvaPretaTela",
+                "contatoPlayer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvasPretasPares",
+                "=",
+                "ToNumber(luvasPretasPares.VariableString(pox))",
+                "=",
+                "ToNumber(luvasPretasPares.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvaPretaTela",
+                "=",
+                "ToNumber(luvaPretaTela.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(luvaPretaTela.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvaPretaSombra",
+                "=",
+                "ToNumber(luvaPretaSombra.VariableString(pox))",
+                "=",
+                "ToNumber(luvaPretaSombra.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "sandaliaTela",
+                "contatoPlayer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "sandaliasPares",
+                "=",
+                "ToNumber(sandaliasPares.VariableString(pox))",
+                "=",
+                "ToNumber(sandaliasPares.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "sandaliaTela",
+                "=",
+                "ToNumber(sandaliasPares.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(sandaliasPares.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "botasPares",
+                "=",
+                "ToNumber(botasPares.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(botasPares.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "sandaliaSombra",
+                "=",
+                "ToNumber(sandaliaSombra.VariableString(pox))",
+                "=",
+                "ToNumber(sandaliaSombra.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "botaTela",
+                "=",
+                "ToNumber(botaTela.VariableString(pox))",
+                "=",
+                "ToNumber(botaTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "botaTela",
+                "contatoPlayer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "botasPares",
+                "=",
+                "ToNumber(botasPares.VariableString(pox))",
+                "=",
+                "ToNumber(botasPares.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "botaTela",
+                "=",
+                "ToNumber(botasPares.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(botasPares.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "sandaliasPares",
+                "=",
+                "ToNumber(sandaliasPares.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(sandaliasPares.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "botaSombra",
+                "=",
+                "ToNumber(botaSombra.VariableString(pox))",
+                "=",
+                "ToNumber(botaSombra.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "sandaliaTela",
+                "=",
+                "ToNumber(sandaliaTela.VariableString(pox))",
+                "=",
+                "ToNumber(sandaliaTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "cabecaSuadaTela",
+                "contatoPlayer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "corpoSuado",
+                "=",
+                "ToNumber(corpoSuado.VariableString(pox))",
+                "=",
+                "ToNumber(corpoSuado.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "cabecaSombra",
+                "=",
+                "ToNumber(cabecaSombra.VariableString(pox))",
+                "=",
+                "ToNumber(cabecaSombra.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "cabecaSuadaTela",
+                "=",
+                "ToNumber(cabecaSuadaG.VariableString(pox))+600",
+                "=",
+                "ToNumber(cabecaSuadaG.VariableString(poy))+600"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "luvaBrancaSombra",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "luvaTela",
+                "luvaPretaTela",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "luvaTela",
+                "luvaPretaSombra",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvaTela",
+                "=",
+                "ToNumber(luvaTela.VariableString(pox))",
+                "=",
+                "ToNumber(luvaTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvaBrancaSombra",
+                "=",
+                "ToNumber(luvaBrancaSombra.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(luvaBrancaSombra.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvasBrancasPares",
+                "=",
+                "ToNumber(luvasBrancasPares.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(luvasBrancasPares.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "luvaPretaSombra",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "luvaTela",
+                "luvaPretaTela",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "luvaTela",
+                "luvaPretaSombra",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvaPretaTela",
+                "=",
+                "ToNumber(luvaPretaTela.VariableString(pox))",
+                "=",
+                "ToNumber(luvaPretaTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvaPretaSombra",
+                "=",
+                "ToNumber(luvaPretaSombra.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(luvaPretaSombra.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "luvasPretasPares",
+                "=",
+                "ToNumber(luvasPretasPares.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(luvasPretasPares.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "sandaliaSombra",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "sandaliaTela",
+                "=",
+                "ToNumber(sandaliaTela.VariableString(pox))",
+                "=",
+                "ToNumber(sandaliaTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "sandaliaSombra",
+                "=",
+                "ToNumber(sandaliaSombra.VariableString(pox))+600",
+                "=",
+                "ToNumber(sandaliaSombra.VariableString(poy))+600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "sandaliasPares",
+                "=",
+                "ToNumber(sandaliasPares.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(sandaliasPares.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "botaSombra",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "botaTela",
+                "=",
+                "ToNumber(botaTela.VariableString(pox))",
+                "=",
+                "ToNumber(botaTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "botaSombra",
+                "=",
+                "ToNumber(botaSombra.VariableString(pox)) +600",
+                "=",
+                "ToNumber(botaSombra.VariableString(poy))+600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "botasPares",
+                "=",
+                "ToNumber(botasPares.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(botasPares.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cabecaSombra",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "cabecaSuadaTela",
+                "=",
+                "ToNumber(cabecaSuadaTela.VariableString(pox))",
+                "=",
+                "ToNumber(cabecaSuadaTela.VariableString(poy))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "cabecaSombra",
+                "=",
+                "ToNumber(cabecaSombra.VariableString(pox)) +600",
+                "=",
+                "ToNumber(cabecaSombra.VariableString(poy))+600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "corpoSuado",
+                "=",
+                "ToNumber(corpoSuado.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(corpoSuado.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "DISJUNTOR LIGADO APLICA UIR COM ESTADOS",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "telaDisjuntor",
+            "offOn",
+            "True"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "luvasBrancasPares",
+                "luvabrancaP",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "luvasPretasPares",
+                "luvapretaP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rmao",
+                "=",
+                "luvasBrancasPares.Variable(objLuvabranca)+luvasPretasPares.Variable(objLuvapreta)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "luvasBrancasPares",
+                "luvabrancaP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rmao",
+                "=",
+                "luvasBrancasPares.Variable(objLuvabranca)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "luvasBrancasPares",
+                "luvabrancaP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rmao",
+                "=",
+                "luvasPretasPares.Variable(objLuvapreta)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "luvasBrancasPares",
+                "luvabrancaP",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "luvasPretasPares",
+                "luvabrancaP",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rmao",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "botasPares",
+                "botaP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rpe",
+                "=",
+                "botasPares.Variable(objBota) / 2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "sandaliasPares",
+                "sandaliaP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rpe",
+                "=",
+                "sandaliasPares.Variable(objSandalia) / 2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "botasPares",
+                "botaP",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "sandaliasPares",
+                "sandaliaP",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rpe",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "corpoSuado",
+                "corposuadoP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rcorpo",
+                "=",
+                "corpoSuado.Variable(objCorposuado)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "corpoSuado",
+                "corposuadoP",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rcorpo",
+                "=",
+                "1000"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "argilosoTerrenoG",
+                "argilosoP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rpiso",
+                "=",
+                "argilosoTerrenoG.Variable(objArgiloso)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "arenosoTerrenoG",
+                "arenosoP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rpiso",
+                "=",
+                "arenosoTerrenoG.Variable(objArenoso)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "gramaMTerrenoG",
+                "gramamolhadaP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rpiso",
+                "=",
+                "gramaMTerrenoG.Variable(objGramamolhada)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "rochosoTerrenoG",
+                "rochosoP",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rpiso",
+                "=",
+                "rochosoTerrenoG.Variable(objRochoso)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "argilosoTerrenoG",
+                "argilosoP",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "arenosoTerrenoG",
+                "arenosoP",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "gramaMTerrenoG",
+                "gramamolhadaP",
+                "False"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "rochosoTerrenoG",
+                "rochosoP",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Rpiso",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "resistencia",
+                "=",
+                "Math.floor(Variable(Rmao)+Variable(Rcorpo )+Variable(Rpe) / 2 + Variable(Rpiso) );"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "corrente",
+                "=",
+                "Math.floor(Variable(tensao)/Variable(resistencia)*1000) / 1000;"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "inverted": false,
@@ -6867,7 +6328,7 @@
               "parameters": [
                 "textI",
                 "=",
-                "\"\""
+                "\"2\""
               ],
               "subInstructions": []
             },
@@ -6879,51 +6340,22 @@
               "parameters": [
                 "textR",
                 "=",
-                "\"\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "telaSinalRed",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "telaSinalYellow",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "telaSinalGreen",
-                "=",
-                "0"
+                "\"3\""
               ],
               "subInstructions": []
             }
           ],
           "events": []
         }
-      ],
-      "parameters": []
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [

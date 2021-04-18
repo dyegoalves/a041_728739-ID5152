@@ -1,0 +1,58 @@
+{
+  "associatedLayout": "ca041_728739",
+  "lastChangeTimeStamp": 0,
+  "name": "calculoUIR",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "telaDisjuntor",
+            "offOn",
+            "True"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "var variables = runtimeScene.getVariables();\nvar resposta = variables.get(\"resposta\");\n\nvar interruptorOn = 1\n\nvar objCouro = variables.get(\"objLuvabranca\").getAsString();\nvar objBorracha = 1000000;\n\nvar objChinelo = 500;\nvar objBota = 2000000;\n\nvar objCorpoUmido = 650;\n\nvar objArgiloso = 100;\nvar objArenoso = 200;\nvar objCeramico = 3000;\nvar objGramaMolhada = 50;\n\nvar couroStatus = 1;\nvar borrachaStatus = 0;\n\nvar botaStatus = 1;\nvar chineloStatus = 0;\n\nvar umidoStatus = 0;\n\nvar argilosoStatus = 1;\nvar arenosoStatus = 0;\nvar gramaMolhadaStatus = 0;\nvar ceramicoStatus = 0;\n\n\n resposta.setString(objCouro);",
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "teste",
+            "=",
+            "VariableString(resposta)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ]
+}
