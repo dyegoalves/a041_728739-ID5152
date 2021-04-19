@@ -862,19 +862,28 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "318.png",
+        "file": "318-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "318.png",
+        "name": "318-1.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "318-1.png",
+        "file": "ptv2.png",
         "kind": "image",
         "metadata": "",
-        "name": "318-1.png",
+        "name": "ptv2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "278.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "278.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -937,10 +946,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/ca041_728739-teste"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/foruns"
     },
     {
@@ -962,12 +967,7 @@
       "referenceTo": "/externalEvents/calculouri"
     }
   ],
-  "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/calculauir_ext"
-    }
-  ],
+  "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

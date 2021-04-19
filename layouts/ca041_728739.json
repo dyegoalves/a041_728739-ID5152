@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.41000000000000014
+    "zoomFactor": 0.6900000000000004
   },
   "objectsGroups": [],
   "variables": [
@@ -61,6 +61,16 @@
       "name": "corrente",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "fator",
+      "type": "string",
+      "value": "573.2484076433121"
+    },
+    {
+      "name": "ponteiroIntencidade",
+      "type": "string",
+      "value": "0"
     }
   ],
   "instances": [
@@ -431,7 +441,7 @@
       "name": "telaMedidor",
       "persistentUuid": "63d1ce47-2ede-48d4-a9d1-683438c5d403",
       "width": 0,
-      "x": 126,
+      "x": 125,
       "y": 489,
       "zOrder": 31,
       "numberProperties": [],
@@ -1368,19 +1378,73 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 49,
       "layer": "telaPlayer",
       "locked": false,
       "name": "medidorAtext",
       "persistentUuid": "56675591-e694-4fd0-8122-59caee55675e",
-      "width": 0,
-      "x": 173,
-      "y": 512,
+      "width": 35,
+      "x": 169,
+      "y": 510,
       "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 52,
+      "layer": "telaPlayer",
+      "locked": false,
+      "name": "pvt",
+      "persistentUuid": "4ad65fa7-b384-4d48-8295-922d66aea054",
+      "width": 6,
+      "x": 183,
+      "y": 543,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "angX",
+          "type": "string",
+          "value": "180"
+        },
+        {
+          "name": "angY",
+          "type": "string",
+          "value": "496"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "telaPlayer",
+      "locked": false,
+      "name": "faceChoque",
+      "persistentUuid": "48334d5e-cf0b-4fc6-8bc4-911201df5c3b",
+      "width": 0,
+      "x": 3,
+      "y": 639,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "pox",
+          "type": "string",
+          "value": "426"
+        },
+        {
+          "name": "poy",
+          "type": "string",
+          "value": "191"
+        }
+      ]
     }
   ],
   "objects": [
@@ -3632,7 +3696,7 @@
       "behaviors": [],
       "string": "A",
       "font": "",
-      "characterSize": 30,
+      "characterSize": 40,
       "color": {
         "b": 153,
         "g": 153,
@@ -3792,6 +3856,84 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "name": "pvt",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "ptv",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ptv2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19,
+                    "y": 373.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17,
+                    "y": 372.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "faceChoque",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "278.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -3891,157 +4033,6 @@
       ],
       "actions": [],
       "events": [
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "ANIMACAO DISJUNTOR",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "ANIMACAO DISJUNTOR",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ToggleObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "offOn"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "=",
-                    "telaDisjuntor.Variable(offOn)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "offOn",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "statusInterruptor",
-                    "=",
-                    "\"Desligado\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "telaDisjuntor",
-                    "offOn",
-                    "True"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "statusInterruptor",
-                    "=",
-                    "\"Ligado\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -4278,6 +4269,157 @@
                   "parameters": [
                     "",
                     "\"CREDITOS\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "ANIMACAO DISJUNTOR",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "ANIMACAO DISJUNTOR",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "telaDisjuntor",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ToggleObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "telaDisjuntor",
+                    "offOn"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "telaDisjuntor",
+                    "=",
+                    "telaDisjuntor.Variable(offOn)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "telaDisjuntor",
+                    "offOn",
+                    "False"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "statusInterruptor",
+                    "=",
+                    "\"Desligado\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "telaDisjuntor",
+                    "offOn",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "statusInterruptor",
+                    "=",
+                    "\"Ligado\""
                   ],
                   "subInstructions": []
                 }
@@ -6190,8 +6332,8 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
+                    "botasPares",
+                    "botaS",
                     "True"
                   ],
                   "subInstructions": []
@@ -6204,30 +6346,6 @@
                   "parameters": [
                     "luvasPretasPares",
                     "luvapretaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
                     "True"
                   ],
                   "subInstructions": []
@@ -6284,220 +6402,8 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
                     "luvasPretasPares",
                     "luvapretaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalRed",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalYellow",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalGreen",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalRed",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalYellow",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "telaSinalGreen",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "luvasPretasPares",
-                    "luvapretaS",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
                     "True"
                   ],
                   "subInstructions": []
@@ -6566,9 +6472,9 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "False"
+                    "botasPares",
+                    "botaS",
+                    "True"
                   ],
                   "subInstructions": []
                 },
@@ -6580,30 +6486,6 @@
                   "parameters": [
                     "luvasPretasPares",
                     "luvapretaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "botasPares",
-                    "botaS",
                     "False"
                   ],
                   "subInstructions": []
@@ -6660,18 +6542,6 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "luvasBrancasPares",
-                    "luvabrancaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
                     "luvasPretasPares",
                     "luvapretaS",
                     "False"
@@ -6686,18 +6556,6 @@
                   "parameters": [
                     "botasPares",
                     "botaS",
-                    "False"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sandaliasPares",
-                    "sandaliaS",
                     "False"
                   ],
                   "subInstructions": []
@@ -6742,13 +6600,136 @@
                 }
               ],
               "events": []
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "PONTEIRO DE INTENCIDADE",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "ponteiroIntencidade",
+                    "=",
+                    "Variable(corrente) * Variable(fator) - 90 "
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "pvt",
+                    "=",
+                    "Variable(ponteiroIntencidade)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "telaDisjuntor",
+                    "offOn",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "ponteiroIntencidade",
+                    ">=",
+                    "29"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "faceChoque",
+                    "=",
+                    "ToNumber(faceChoque.VariableString(pox)) ",
+                    "=",
+                    "ToNumber(faceChoque.VariableString(poy)) "
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "ponteiroIntencidade",
+                    ">=",
+                    "29"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "faceChoque",
+                    "=",
+                    "ToNumber(faceChoque.VariableString(pox)) + 600",
+                    "=",
+                    "ToNumber(faceChoque.VariableString(poy)) + 600"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             }
           ],
@@ -6763,7 +6744,7 @@
       "creationTime": 0,
       "disabled": false,
       "folded": true,
-      "name": "DISJUNTOR LIGADO APLICA UIR COM ESTADOS",
+      "name": "DISJUNTOR LIGADO / DESLIGADO APLICA UIR COM ESTADOS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -6784,7 +6765,7 @@
         },
         {
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6916,6 +6897,32 @@
                 "telaSinalGreen",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "pvt",
+                "=",
+                "-90"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "faceChoque",
+                "=",
+                "ToNumber(faceChoque.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(faceChoque.VariableString(poy)) + 600"
               ],
               "subInstructions": []
             }
