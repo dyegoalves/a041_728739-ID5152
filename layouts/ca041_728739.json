@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.4300000000000002
+    "zoomFactor": 1.1500000000000008
   },
   "objectsGroups": [],
   "variables": [
@@ -1368,7 +1368,7 @@
       "locked": false,
       "name": "textR",
       "persistentUuid": "e60b2c59-22cc-48ee-872a-cc4356b9b590",
-      "width": 80,
+      "width": 87,
       "x": 32,
       "y": 550,
       "zOrder": 70,
@@ -6399,7 +6399,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "SINAL ALERTA",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6882,7 +6882,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "DISJUNTOR LIGADO / DESLIGADO APLICA UIR COM ESTADOS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

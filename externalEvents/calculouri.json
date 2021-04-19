@@ -825,7 +825,7 @@
               "parameters": [
                 "textR",
                 "=",
-                "VariableString(resistencia) + \" Ω\""
+                "VariableString(resistencia) + \" ohm\""
               ],
               "subInstructions": []
             }
