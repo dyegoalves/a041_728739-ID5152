@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.6599999999999999
+    "zoomFactor": 1.1000000000000003
   },
   "objectsGroups": [],
   "variables": [
@@ -165,14 +165,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 289,
+      "height": 380,
       "layer": "",
       "locked": false,
       "name": "textAjudaUseMenu",
       "persistentUuid": "4f7c1e2b-80c0-4a49-ac6b-672ee2e1c97d",
-      "width": 774,
-      "x": 18,
-      "y": 186,
+      "width": 662,
+      "x": 91,
+      "y": 159,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -271,7 +271,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Você deverá levar o carro até a garagem, verificando a dificuldade em função das mudanças nas condições da estrada (resistência).\n\nDicas:\n\nPara você movimentar o carro, leve o ponteiro do mouse até o carro e clique sobre o carro com o botão esquerdo, mantenha-o pressionado até chegar à garagem, sem bater nas pedras.\nAo bater numa pedra, o carro se soltará do mouse e ficará um pouco atrás da pedra, onde você bateu. Faça novamente o passo 1.\nPara reiniciar o jogo, basta selecionar um novo material do menu.\nTrocar //Para você alterar as condições da estrada, movimente o ponteiro do mouse até MENU e escolha o nome na cor VERDE Resistividade do material e clique sobre ele.  Depois, deverá ser apresentada uma janela com cinco opções de resistência (condutor, baixa, média, alta e isolante),  clique sobre uma delas para selecioná-la.\n",
+      "string": "Nesta animação você poderá escolher os EPI, o terreno e o eletricista úmido ou molhado e observar o que acontece com a intensidade do Choque ou da Corrente Elétrica. Na sinaleira é apresentado o risco a que está sujeito o eletricista.\n\nDicas:\n\n1. Para você iniciar a simulação, movimente o ponteiro do mouse até o disjuntor e clique com o botão esquerdo, que ligará o disjuntor. Se clicar novamente desligará o disjuntor.\n\n2. Para você escolher uma ferramenta, um terreno ou corpo na barra lateral esquerda, basta pressionar sobre o componente desejado o botão esquerdo do mouse, arrastando-o para cima do eletricista e depois solte o botão, que a escolha será incorporada ao ambiente.\n\n3. Para você retirar um componente do ambiente, basta clicar com o botão esquerdo do mouse sobre ele na barra de ferramentas laterais esquerda.\n\n4. Para você saber o nome de cada componente, valor das grandezas e o estado da sinaleira, basta levar o ponteiro do mouse sobre o elemento desejado, que aparecerá sua descrição textual.",
       "font": "",
       "characterSize": 16,
       "color": {

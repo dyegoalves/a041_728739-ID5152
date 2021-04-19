@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.6900000000000004
+    "zoomFactor": 0.4300000000000002
   },
   "objectsGroups": [],
   "variables": [
@@ -1443,6 +1443,33 @@
           "name": "poy",
           "type": "string",
           "value": "191"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 287,
+      "layer": "telaPlayer",
+      "locked": false,
+      "name": "choquecorpo",
+      "persistentUuid": "fe148161-ada7-42fb-8ef3-2e300fc5c9fe",
+      "width": 364,
+      "x": 279,
+      "y": 685,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "pox",
+          "type": "string",
+          "value": "307"
+        },
+        {
+          "name": "poy",
+          "type": "string",
+          "value": "252"
         }
       ]
     }
@@ -3934,6 +3961,62 @@
           ]
         }
       ]
+    },
+    {
+      "name": "choquecorpo",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "choq",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.30000001192092896,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "choq.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "choq - pisk.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -6316,7 +6399,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "SINAL ALERTA",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6387,6 +6470,20 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "choquecorpo",
+                    "=",
+                    "ToNumber(choquecorpo.VariableString(pox)) + 600",
+                    "=",
+                    "ToNumber(choquecorpo.VariableString(poy)) + 600"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -6457,6 +6554,20 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "choquecorpo",
+                    "=",
+                    "ToNumber(choquecorpo.VariableString(pox)) + 600",
+                    "=",
+                    "ToNumber(choquecorpo.VariableString(poy)) + 600"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -6527,6 +6638,20 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "choquecorpo",
+                    "=",
+                    "ToNumber(choquecorpo.VariableString(pox)) + 600",
+                    "=",
+                    "ToNumber(choquecorpo.VariableString(poy)) + 600"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -6595,6 +6720,20 @@
                     "telaSinalGreen",
                     "=",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "choquecorpo",
+                    "=",
+                    "ToNumber(choquecorpo.VariableString(pox))",
+                    "=",
+                    "ToNumber(choquecorpo.VariableString(poy))"
                   ],
                   "subInstructions": []
                 }
@@ -6743,7 +6882,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "DISJUNTOR LIGADO / DESLIGADO APLICA UIR COM ESTADOS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6923,6 +7062,20 @@
                 "ToNumber(faceChoque.VariableString(pox)) + 600",
                 "=",
                 "ToNumber(faceChoque.VariableString(poy)) + 600"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "choquecorpo",
+                "=",
+                "ToNumber(choquecorpo.VariableString(pox)) + 600",
+                "=",
+                "ToNumber(choquecorpo.VariableString(poy)) + 600"
               ],
               "subInstructions": []
             }
