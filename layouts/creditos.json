@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.76
+    "zoomFactor": 0.4999999999999999
   },
   "objectsGroups": [],
   "variables": [
@@ -123,8 +123,8 @@
       "name": "titulosMenuBot22",
       "persistentUuid": "0b2fdf33-5cce-4236-af95-72fe619da4c4",
       "width": 0,
-      "x": 607,
-      "y": 575,
+      "x": 478,
+      "y": 577,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,7 +139,7 @@
       "name": "titulosMenuBot2",
       "persistentUuid": "c4b676ca-cab4-4c0f-9c4b-f8d98346d795",
       "width": 0,
-      "x": 11,
+      "x": 7,
       "y": 577,
       "zOrder": 24,
       "numberProperties": [],
@@ -171,8 +171,8 @@
       "name": "textAjudaUseMenu",
       "persistentUuid": "4f7c1e2b-80c0-4a49-ac6b-672ee2e1c97d",
       "width": 152,
-      "x": 614,
-      "y": 138,
+      "x": 503,
+      "y": 130,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -187,8 +187,8 @@
       "name": "textVoltarCena",
       "persistentUuid": "aa1482a2-e118-412c-b4d9-b5f75c1cd221",
       "width": 0,
-      "x": 546,
-      "y": 103,
+      "x": 573,
+      "y": 97,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -203,8 +203,8 @@
       "name": "textNomeCord",
       "persistentUuid": "d0a2dfa8-37fe-4ad6-bbe8-e7efc92213af",
       "width": 0,
-      "x": 662,
-      "y": 167,
+      "x": 523,
+      "y": 154,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -219,8 +219,8 @@
       "name": "textDesenvolvedores",
       "persistentUuid": "18c9d004-5621-4f2a-844e-ad589c984ffc",
       "width": 0,
-      "x": 624,
-      "y": 193,
+      "x": 517,
+      "y": 190,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -228,15 +228,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 75,
       "layer": "",
       "locked": false,
       "name": "textNomesDensev",
       "persistentUuid": "bfd962e1-5ff8-47b4-af67-e14783938ac6",
-      "width": 0,
-      "x": 534,
-      "y": 218,
+      "width": 240,
+      "x": 389,
+      "y": 217,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -251,8 +251,8 @@
       "name": "textColaboradores",
       "persistentUuid": "3858b8b3-70fb-475b-b64e-9efc79ad9fa9",
       "width": 0,
-      "x": 646,
-      "y": 301,
+      "x": 536,
+      "y": 305,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -267,8 +267,8 @@
       "name": "textNomesColabo",
       "persistentUuid": "163a10c3-f61c-4e80-8dd8-b35c8628ba41",
       "width": 0,
-      "x": 467,
-      "y": 326,
+      "x": 327,
+      "y": 333,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -276,15 +276,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 68,
       "layer": "",
       "locked": false,
       "name": "textUnidade",
       "persistentUuid": "8e0ac0ef-7726-4971-9708-17f9b6a72531",
-      "width": 0,
-      "x": 356,
-      "y": 378,
+      "width": 414,
+      "x": 280,
+      "y": 440,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -293,14 +293,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 102,
+      "height": 47,
       "layer": "",
       "locked": false,
       "name": "textEstado",
       "persistentUuid": "2973b212-b99a-4399-ae99-a019c164aacd",
-      "width": 565,
-      "x": 141,
-      "y": 455,
+      "width": 594,
+      "x": 119,
+      "y": 508,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
@@ -309,15 +309,31 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 63,
+      "height": 67,
       "layer": "",
       "locked": false,
       "name": "btVoltarCena",
       "persistentUuid": "2d21af11-40db-4fa8-bac5-a7c5f14d8ad4",
-      "width": 78,
-      "x": 688,
-      "y": 39,
+      "width": 67,
+      "x": 707,
+      "y": 31,
       "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 256,
+      "layer": "",
+      "locked": false,
+      "name": "senaiBG",
+      "persistentUuid": "c75cad4b-9756-4b4c-a0fc-6f5da3dbb888",
+      "width": 800,
+      "x": 2,
+      "y": 173,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -412,7 +428,7 @@
       }
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "titulosMenuBot2",
       "smoothed": true,
@@ -421,9 +437,9 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "SENAI-RS Núcleo de Educação a Distância ",
+      "string": "SENAI-RS - Gerência de Desenvolvimento Educacional",
       "font": "",
-      "characterSize": 16,
+      "characterSize": 14,
       "color": {
         "b": 60,
         "g": 51,
@@ -431,7 +447,7 @@
       }
     },
     {
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "titulosMenuBot22",
       "smoothed": true,
@@ -440,9 +456,9 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "© 2021 SENAI-RS EAD",
+      "string": " ©\t2007 SENAI-RS EAD ATUALIZADO EM 2021",
       "font": "",
-      "characterSize": 16,
+      "characterSize": 14,
       "color": {
         "b": 60,
         "g": 51,
@@ -497,7 +513,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "           Dyego dos Santos Alves\n José Pedro Schardosim Simão\n                                Iuri Carraro\n               Fernando Schirmbeck\n",
+      "string": "             Dyego dos Santos Alves\n   José Pedro Schardosim Simão\n                                  Iuri Carraro\n                 Fernando Schirmbeck\n",
       "font": "",
       "characterSize": 16,
       "color": {
@@ -535,7 +551,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Serviço Nacional de Aprendizagem Industrial - SENAI\n             Departamento Regional do Rio Grande do Sul\n                                    Núcleo de Educação a Distância\n\n",
+      "string": "Serviço Nacional de Aprendizagem Industrial - SENAI\n              Departamento Regional do Rio Grande do Sul\n                  Gerência de Desenvolvimento Educacional\n\n\n",
       "font": "",
       "characterSize": 16,
       "color": {
@@ -573,7 +589,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Porto Alegre - RS - Fone +55 51 3347 8440 - http://nead.senairs.org.br\n                                   SENAI-RS/UEDE/NEAD\n\n",
+      "string": "Porto Alegre - RS - Fone +55 51 3347 8440 - https://www.senairs.org.br\n              SENAI-RS - Gerência de Desenvolvimento Educacional\n",
       "font": "",
       "characterSize": 18,
       "color": {
@@ -594,7 +610,7 @@
       "behaviors": [],
       "string": "Voltar para tela anterior",
       "font": "",
-      "characterSize": 20,
+      "characterSize": 18,
       "color": {
         "b": 60,
         "g": 51,
@@ -602,98 +618,11 @@
       }
     },
     {
-      "name": "btAjuda",
-      "tags": "Moldura",
+      "name": "senaiBG",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "288.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "288-b",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "288-b.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "btInfo",
-      "tags": "Moldura",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "movUp",
-          "type": "string",
-          "value": "0"
-        },
-        {
-          "name": "",
-          "type": "string",
-          "value": ""
-        }
-      ],
       "behaviors": [],
       "animations": [
         {
@@ -701,117 +630,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "291.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "291-b.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "btCreditos",
-      "tags": "Moldura",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
               "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "285.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "285-b",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "285 -b.png",
+                  "image": "1bb3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.8300000000000005
+    "zoomFactor": 0.2700000000000001
   },
   "objectsGroups": [],
   "variables": [
@@ -179,8 +179,8 @@
       "name": "titulosMenuBot",
       "persistentUuid": "7fdbf874-a9a5-447c-8374-6ba391ecefff",
       "width": 0,
-      "x": 11,
-      "y": 576,
+      "x": 7,
+      "y": 577,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -249,8 +249,8 @@
       "name": "titulosMenuBot22",
       "persistentUuid": "0b2fdf33-5cce-4236-af95-72fe619da4c4",
       "width": 0,
-      "x": 637,
-      "y": 576,
+      "x": 478,
+      "y": 577,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1226,7 +1226,7 @@
       "persistentUuid": "cf1a6fa4-c7c5-43f6-bf0f-24be63fe2c83",
       "width": 0,
       "x": 115,
-      "y": 331,
+      "y": 332,
       "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
@@ -1629,7 +1629,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "SENAI-RS Núcleo de Educação a Distância ",
+      "string": "SENAI-RS - Gerência de Desenvolvimento Educacional",
       "font": "",
       "characterSize": 14,
       "color": {
@@ -1648,7 +1648,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "© 2021 SENAI-RS EAD",
+      "string": " ©\t2007 SENAI-RS EAD ATUALIZADO EM 2021",
       "font": "",
       "characterSize": 14,
       "color": {
@@ -3037,45 +3037,6 @@
       ]
     },
     {
-      "name": "cabecaSuadaG",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "cabecaSuada",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "cabecaSuada-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "cabecaSuadaTela",
       "tags": "",
       "type": "Sprite",
@@ -3864,25 +3825,6 @@
           ]
         }
       ]
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "teste",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Aqui ",
-      "font": "",
-      "characterSize": 30,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
     },
     {
       "name": "pvt",
@@ -4976,20 +4918,6 @@
                     "ToNumber(cabecaSombra.VariableString(pox))",
                     "=",
                     "ToNumber(cabecaSombra.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "cabecaSuadaTela",
-                    "=",
-                    "ToNumber(cabecaSuadaG.VariableString(pox))+600",
-                    "=",
-                    "ToNumber(cabecaSuadaG.VariableString(poy))+600"
                   ],
                   "subInstructions": []
                 },
