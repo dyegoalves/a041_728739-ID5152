@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.4999999999999999
+    "zoomFactor": 0.43999999999999984
   },
   "objectsGroups": [],
   "variables": [
@@ -775,7 +775,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Block",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     }
