@@ -3,9 +3,6 @@
   "disableInputWhenNotFocused": true,
   "mangledName": "FORUNS",
   "name": "FORUNS",
-  "oglFOV": 90,
-  "oglZFar": 500,
-  "oglZNear": 1,
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -39,7 +36,6 @@
       "customSize": true,
       "height": 30,
       "layer": "",
-      "locked": false,
       "name": "telaTop",
       "persistentUuid": "0cd23765-d04b-4bfa-a926-069e226d467a",
       "width": 795,
@@ -55,7 +51,6 @@
       "customSize": true,
       "height": 30,
       "layer": "",
-      "locked": false,
       "name": "telaTop",
       "persistentUuid": "0eca28e6-1092-49b0-9a54-278dbcacd5a0",
       "width": 795,
@@ -71,7 +66,6 @@
       "customSize": true,
       "height": 600,
       "layer": "",
-      "locked": false,
       "name": "telaLinha",
       "persistentUuid": "ba253874-0119-40ae-bae9-6f0718405932",
       "width": 2,
@@ -87,7 +81,6 @@
       "customSize": true,
       "height": 600,
       "layer": "",
-      "locked": false,
       "name": "telaLinha",
       "persistentUuid": "38a2087d-9a5f-4c26-9c78-3e243f0631b5",
       "width": 2,
@@ -103,7 +96,6 @@
       "customSize": true,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "titulosMenuBot",
       "persistentUuid": "7fdbf874-a9a5-447c-8374-6ba391ecefff",
       "width": 0,
@@ -119,7 +111,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "titulosMenuBot22",
       "persistentUuid": "0b2fdf33-5cce-4236-af95-72fe619da4c4",
       "width": 0,
@@ -135,7 +126,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "titulosMenuBot2",
       "persistentUuid": "c4b676ca-cab4-4c0f-9c4b-f8d98346d795",
       "width": 0,
@@ -151,7 +141,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textTituloMenu",
       "persistentUuid": "fecfca2d-6508-4d6e-a47f-56de4ce60c44",
       "width": 0,
@@ -167,7 +156,6 @@
       "customSize": true,
       "height": 314,
       "layer": "",
-      "locked": false,
       "name": "textAjudaUseMenu",
       "persistentUuid": "4f7c1e2b-80c0-4a49-ac6b-672ee2e1c97d",
       "width": 667,
@@ -183,7 +171,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textAlta",
       "persistentUuid": "dee6d7af-c92f-4e84-930c-d293d4acf73a",
       "width": 0,
@@ -199,7 +186,6 @@
       "customSize": true,
       "height": 67,
       "layer": "",
-      "locked": false,
       "name": "btVoltarCena",
       "persistentUuid": "f7190106-0fcd-434e-9573-d8b3044a7707",
       "width": 67,
@@ -215,7 +201,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textVoltarCena",
       "persistentUuid": "f7cb86bc-2472-41ec-bc9c-fb7abdbe8eb2",
       "width": 0,
@@ -229,6 +214,7 @@
   ],
   "objects": [
     {
+      "assetStoreId": "",
       "height": 32,
       "name": "telaTop",
       "tags": "Moldura",
@@ -236,14 +222,18 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
+      "effects": [],
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
       "name": "telaLinha",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -278,6 +268,7 @@
       ]
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "textVoltarCena",
@@ -286,9 +277,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "Voltar a cena anterior",
       "font": "",
+      "textAlignment": "",
       "characterSize": 18,
       "color": {
         "b": 60,
@@ -297,6 +290,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "textAjudaUseMenu",
@@ -305,9 +299,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "Visite os foruns das Aulas ",
       "font": "",
+      "textAlignment": "",
       "characterSize": 20,
       "color": {
         "b": 60,
@@ -316,6 +312,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "textTituloMenu",
@@ -324,9 +321,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "Foruns : ",
       "font": "",
+      "textAlignment": "",
       "characterSize": 30,
       "color": {
         "b": 60,
@@ -335,6 +334,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "titulosMenuBot2",
@@ -343,9 +343,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "SENAI-RS - Gerência de Desenvolvimento Educacional",
       "font": "",
+      "textAlignment": "",
       "characterSize": 14,
       "color": {
         "b": 60,
@@ -354,6 +356,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "titulosMenuBot22",
@@ -362,9 +365,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": " ©\t2007 SENAI-RS EAD ATUALIZADO EM 2021",
       "font": "",
+      "textAlignment": "",
       "characterSize": 14,
       "color": {
         "b": 60,
@@ -375,32 +380,25 @@
   ],
   "events": [
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": false,
             "value": "MouseButtonPressed"
           },
           "parameters": [
             "",
             "Left"
-          ],
-          "subInstructions": []
+          ]
         }
       ],
       "actions": [],
       "events": [
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -408,23 +406,19 @@
                 "",
                 "",
                 ""
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "PopScene"
               },
               "parameters": [
                 ""
-              ],
-              "subInstructions": []
+              ]
             }
-          ],
-          "events": []
+          ]
         }
       ]
     }
@@ -434,9 +428,14 @@
       "ambientLightColorB": 15,
       "ambientLightColorG": 6022792,
       "ambientLightColorR": 10,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "",
+      "renderingType": "",
       "visibility": true,
       "cameras": [
         {
@@ -465,8 +464,32 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
     }
   ]
 }
